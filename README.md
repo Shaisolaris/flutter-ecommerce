@@ -1,5 +1,7 @@
 # flutter-ecommerce
 
+![CI](https://github.com/Shaisolaris/flutter-ecommerce/actions/workflows/ci.yml/badge.svg)
+
 Flutter e-commerce app with product catalog, cart management, wishlist, search with filters and sorting, product detail with variant selection, category browsing, and checkout flow. Dart-only implementation with ChangeNotifier state management and Material Design 3.
 
 ## Stack
