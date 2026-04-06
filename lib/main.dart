@@ -1,3 +1,4 @@
+import 'data/demo_data.dart';
 import 'package:flutter/material.dart';
 import 'theme/app_theme.dart';
 import 'providers/cart_provider.dart';
