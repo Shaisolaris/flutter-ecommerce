@@ -1,14 +1,9 @@
-import '../data/demo_data.dart';
 import 'package:flutter/material.dart';
 import '../models/models.dart';
 import '../services/mock_data.dart';
 import '../providers/cart_provider.dart';
 import '../widgets/product_card.dart';
 import '../theme/app_theme.dart';
-
-// Demo products loaded from demo_data.dart
-final _products = DemoProducts.products;
-final _categories = DemoProducts.categories;
 
 class HomeScreen extends StatelessWidget {
   final CartProvider cart;
