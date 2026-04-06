@@ -14,5 +14,4 @@ jobs:
           flutter-version: '3.22.x'
           channel: 'stable'
       - run: flutter pub get
-      - run: dart analyze lib/ --fatal-infos || true
-      - run: dart analyze lib/ --no-fatal-warnings --no-fatal-infos
+      - run: dart analyze lib/
