@@ -3,6 +3,8 @@ import 'package:flutter/foundation.dart';
 import '../models/models.dart';
 
 class CartProvider extends ChangeNotifier {
+  List<Map<String, dynamic>> get products => DemoProducts.products;
+  List<String> get categories => DemoProducts.categories;
   final List<CartItem> _items = [];
 
   List<CartItem> get items => List.unmodifiable(_items);
